@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670943CF22F01B83001DF090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670943CE22F01B83001DF090 /* AppDelegate.swift */; };
+		670943D122F01B83001DF090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670943D022F01B83001DF090 /* ViewController.swift */; };
+		670943D422F01B83001DF090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670943D222F01B83001DF090 /* Main.storyboard */; };
+		670943D622F01B84001DF090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670943D522F01B84001DF090 /* Assets.xcassets */; };
+		670943D922F01B84001DF090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670943D722F01B84001DF090 /* LaunchScreen.storyboard */; };
+		670943E422F01B85001DF090 /* Minecraft0730Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670943E322F01B85001DF090 /* Minecraft0730Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670943E022F01B85001DF090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670943C322F01B83001DF090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670943CA22F01B83001DF090;
+			remoteInfo = Minecraft0730;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670943CB22F01B83001DF090 /* Minecraft0730.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minecraft0730.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670943CE22F01B83001DF090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		670943D022F01B83001DF090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		670943D322F01B83001DF090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670943D522F01B84001DF090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670943D822F01B84001DF090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		670943DA22F01B84001DF090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670943DF22F01B85001DF090 /* Minecraft0730Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Minecraft0730Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670943E322F01B85001DF090 /* Minecraft0730Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft0730Tests.swift; sourceTree = "<group>"; };
+		670943E522F01B85001DF090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670943C822F01B83001DF090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670943DC22F01B85001DF090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670943C222F01B83001DF090 = {
+			isa = PBXGroup;
+			children = (
+				670943CD22F01B83001DF090 /* Minecraft0730 */,
+				670943E222F01B85001DF090 /* Minecraft0730Tests */,
+				670943CC22F01B83001DF090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		670943CC22F01B83001DF090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670943CB22F01B83001DF090 /* Minecraft0730.app */,
+				670943DF22F01B85001DF090 /* Minecraft0730Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670943CD22F01B83001DF090 /* Minecraft0730 */ = {
+			isa = PBXGroup;
+			children = (
+				670943CE22F01B83001DF090 /* AppDelegate.swift */,
+				670943D022F01B83001DF090 /* ViewController.swift */,
+				670943D222F01B83001DF090 /* Main.storyboard */,
+				670943D522F01B84001DF090 /* Assets.xcassets */,
+				670943D722F01B84001DF090 /* LaunchScreen.storyboard */,
+				670943DA22F01B84001DF090 /* Info.plist */,
+			);
+			path = Minecraft0730;
+			sourceTree = "<group>";
+		};
+		670943E222F01B85001DF090 /* Minecraft0730Tests */ = {
+			isa = PBXGroup;
+			children = (
+				670943E322F01B85001DF090 /* Minecraft0730Tests.swift */,
+				670943E522F01B85001DF090 /* Info.plist */,
+			);
+			path = Minecraft0730Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670943CA22F01B83001DF090 /* Minecraft0730 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670943E822F01B85001DF090 /* Build configuration list for PBXNativeTarget "Minecraft0730" */;
+			buildPhases = (
+				670943C722F01B83001DF090 /* Sources */,
+				670943C822F01B83001DF090 /* Frameworks */,
+				670943C922F01B83001DF090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minecraft0730;
+			productName = Minecraft0730;
+			productReference = 670943CB22F01B83001DF090 /* Minecraft0730.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670943DE22F01B85001DF090 /* Minecraft0730Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670943EB22F01B85001DF090 /* Build configuration list for PBXNativeTarget "Minecraft0730Tests" */;
+			buildPhases = (
+				670943DB22F01B85001DF090 /* Sources */,
+				670943DC22F01B85001DF090 /* Frameworks */,
+				670943DD22F01B85001DF090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670943E122F01B85001DF090 /* PBXTargetDependency */,
+			);
+			name = Minecraft0730Tests;
+			productName = Minecraft0730Tests;
+			productReference = 670943DF22F01B85001DF090 /* Minecraft0730Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670943C322F01B83001DF090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Chang Chan Woo";
+				TargetAttributes = {
+					670943CA22F01B83001DF090 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					670943DE22F01B85001DF090 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 670943CA22F01B83001DF090;
+					};
+				};
+			};
+			buildConfigurationList = 670943C622F01B83001DF090 /* Build configuration list for PBXProject "Minecraft0730" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670943C222F01B83001DF090;
+			productRefGroup = 670943CC22F01B83001DF090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670943CA22F01B83001DF090 /* Minecraft0730 */,
+				670943DE22F01B85001DF090 /* Minecraft0730Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670943C922F01B83001DF090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670943D922F01B84001DF090 /* LaunchScreen.storyboard in Resources */,
+				670943D622F01B84001DF090 /* Assets.xcassets in Resources */,
+				670943D422F01B83001DF090 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670943DD22F01B85001DF090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670943C722F01B83001DF090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670943D122F01B83001DF090 /* ViewController.swift in Sources */,
+				670943CF22F01B83001DF090 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670943DB22F01B85001DF090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670943E422F01B85001DF090 /* Minecraft0730Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670943E122F01B85001DF090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670943CA22F01B83001DF090 /* Minecraft0730 */;
+			targetProxy = 670943E022F01B85001DF090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670943D222F01B83001DF090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670943D322F01B83001DF090 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		670943D722F01B84001DF090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670943D822F01B84001DF090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670943E622F01B85001DF090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		670943E722F01B85001DF090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670943E922F01B85001DF090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4939JTZRQZ;
+				INFOPLIST_FILE = Minecraft0730/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Minecraft0730;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		670943EA22F01B85001DF090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4939JTZRQZ;
+				INFOPLIST_FILE = Minecraft0730/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Minecraft0730;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		670943EC22F01B85001DF090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4939JTZRQZ;
+				INFOPLIST_FILE = Minecraft0730Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Minecraft0730Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minecraft0730.app/Minecraft0730";
+			};
+			name = Debug;
+		};
+		670943ED22F01B85001DF090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4939JTZRQZ;
+				INFOPLIST_FILE = Minecraft0730Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Minecraft0730Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minecraft0730.app/Minecraft0730";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670943C622F01B83001DF090 /* Build configuration list for PBXProject "Minecraft0730" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670943E622F01B85001DF090 /* Debug */,
+				670943E722F01B85001DF090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670943E822F01B85001DF090 /* Build configuration list for PBXNativeTarget "Minecraft0730" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670943E922F01B85001DF090 /* Debug */,
+				670943EA22F01B85001DF090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670943EB22F01B85001DF090 /* Build configuration list for PBXNativeTarget "Minecraft0730Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670943EC22F01B85001DF090 /* Debug */,
+				670943ED22F01B85001DF090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670943C322F01B83001DF090 /* Project object */;
+}
