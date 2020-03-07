@@ -1,2 +1,2 @@
 # iOS_Programming
-Repository for the codes of iOS Programming Camp 2019
+Repository for the projects & codes from iOS Programming Camp 2019
